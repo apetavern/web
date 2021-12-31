@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.1",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "path": "^0.12.7",
+    "postcss": "^8.4.5",
+    "postcss-cli": "^9.1.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.8"
+  },
+  "name": "web",
+  "version": "0.0.1",
+  "main": "app.js",
+  "scripts": {
+    "tailwind:css": "postcss public/styles/tailwind.css -o public/styles/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apetavern/web.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/apetavern/web/issues"
+  },
+  "homepage": "https://github.com/apetavern/web#readme",
+  "description": ""
+}
