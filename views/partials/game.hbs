@@ -1,6 +1,6 @@
 <!-- When these get clicked we should probably take the user somewhere they can see info about the game -->
 <div class="w-full z-1 h-64 group text-black
-        bg-gray-200 rounded-xl transition-all cursor-pointer relative border 
+        bg-gray-200 rounded-xl relative border
         border-gray-300 overflow-hidden mx-2
         flex">
 
@@ -9,6 +9,20 @@
         <h3 class="font-title text-6xl sm:text-4xl font-extrabold py-2">{{gameName}}</h3>
         <p class="font-subtitle text-lg font-bold py-2 pb-4 italic">Released 21 July 2017</p>
         <p class="">{{> @partial-block }}</p>
+
+        <ul class="list-none flex space-x-2 py-2">
+            <li>
+                <a href="https://github.com/apetavern" title="GitHub">
+                    <i class="cursor-pointer hover:text-blue-500 transition-all fab fa-github"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://sbox.facepunch.com/dev/apetavern/" title="s&box">
+                    <i class="cursor-pointer hover:text-blue-500 transition-all fas fa-box"></i>
+                </a>
+            </li>
+        </ul>
     </div>
 
     <!-- Right -->
