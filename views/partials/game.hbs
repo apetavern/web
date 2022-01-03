@@ -6,22 +6,27 @@
 
     <!-- Left -->
     <div class="p-6 w-1/2">
-        <h3 class="font-title text-6xl sm:text-4xl font-extrabold">{{gameName}}</h3>
+        <h3 class="font-title text-6xl sm:text-4xl font-extrabold">{{ gameName }}</h3>
         <p class="font-subtitle text-md font-bold py-4 uppercase italic">Released 21 July 2017</p>
         <p class="">{{> @partial-block }}</p>
 
         <ul class="list-none flex space-x-2 py-2">
+            {{#if github }}
             <li>
-                <a href="https://github.com/apetavern" title="GitHub">
+                <a href="{{ github }}" title="GitHub">
                     <i class="cursor-pointer hover:text-blue-500 transition-all fab fa-github"></i>
                 </a>
             </li>
+            {{/if}}
+
+            {{#if sbox }}
 
             <li>
-                <a href="https://sbox.facepunch.com/dev/apetavern/" title="s&box">
+                <a href="{{ sbox }}" title="Website">
                     <i class="cursor-pointer hover:text-blue-500 transition-all fas fa-box"></i>
                 </a>
             </li>
+            {{/if}}
         </ul>
     </div>
 
