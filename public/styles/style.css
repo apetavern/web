@@ -513,9 +513,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 .aspect-\[4\/1\] {
   aspect-ratio: 4 / 1;
 }
-.aspect-\[8\/7\] {
-  aspect-ratio: 8 / 7;
-}
 .aspect-\[8\/3\] {
   aspect-ratio: 8 / 3;
 }
@@ -760,12 +757,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   .sm\:text-8xl {
     font-size: 6rem;
     line-height: 1;
-  }
-}
-@media (min-width: 768px) {
-
-  .md\:aspect-\[6\/7\] {
-    aspect-ratio: 6 / 7;
   }
 }
 @media (min-width: 1024px) {

@@ -2,8 +2,8 @@
     class="flex flex-col py-16 text-center items-center justify-center h-screen sm:h-[75vh] backdrop-blur overflow-hidden">
 
     <!-- Background image -->
-    <div
-        class="absolute -left-8 -right-8 -top-8 -bottom-8 bg-[url('/images/background-temp.jpg')] blur-md -z-10 object-cover object-center">
+    <div id="hero-background" class="absolute -left-8 -right-8 -top-8 -bottom-8 bg-[url('/images/background-temp.jpg')] blur-md -z-10 object-cover object-center
+        bg-cover">
     </div>
 
     <h1 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2">Ape Tavern</h1>
@@ -15,3 +15,8 @@
 
     </div>
 </div>
+
+
+<script>
+    new ParallaxBackground("#hero-background");
+</script>
