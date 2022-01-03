@@ -1,0 +1,40 @@
+<div class="min-h-[50vh] flex items-center justify-around w-full">
+
+    <div class="flex flex-col items-center w-1/3">
+
+        <h2 class="font-bold py-4 uppercase text-center">Copies sold</h2>
+
+        <h3 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2">2.3</h3>
+        <p class="font-subtitle text-xl text-white font-bold py-2">billion</p>
+
+    </div>
+
+    <div class="flex flex-col items-center w-1/3">
+
+        <h2 class="font-bold py-4 uppercase text-center">Games finished</h2>
+
+        <h3 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2">2</h3>
+        <p class="font-subtitle text-xl text-white font-bold py-2">games</p>
+
+    </div>
+
+    <div class="flex flex-col items-center w-1/3">
+
+        <h2 class="font-bold py-4 uppercase text-center">Days waiting for Leaf's terrain</h2>
+
+        <h3 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2" id="leaf-counter">69</h3>
+        <p class="font-subtitle text-xl text-white font-bold py-2">days</p>
+
+        <script>
+            let target = new Date(2021, 10, 21);
+            let now = new Date();
+
+            var days = Math.round((now - target) / (1000 * 60 * 60 * 24));
+
+            var element = document.querySelector("#leaf-counter");
+            element.innerText = days;
+        </script>
+
+    </div>
+
+</div>
