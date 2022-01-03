@@ -1,0 +1,22 @@
+services:
+  apetavern-proxy:
+    image: nginx:latest
+    container_name: apetavern-proxy
+    restart: always
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx/webserver-prod.conf:/etc/nginx/conf.d/default.conf
+      - ./public:/var/www/webroot
+      - ./error:/var/www/error
+      - /etc/ssl/apetavern:/etc/ssl/apetavern
+  apetavern-app:
+    build:
+      context: .
+      dockerfile: ./Dockerfile-prod
+    container_name: apetavern-app
+    restart: always
+    ports:
+      - 3000:3000
+    volumes: ./public:/usr/src/app/public
