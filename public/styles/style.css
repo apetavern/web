@@ -783,10 +783,16 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
-.article-image {
-    mask-image: linear-gradient(270deg,#000 0,rgba(0,0,0,.978) 9.5%,rgba(0,0,0,.925) 17.7%,rgba(0,0,0,.857) 24.7%,rgba(0,0,0,.781) 31%,rgba(0,0,0,.701) 36.8%,rgba(0,0,0,.62) 42.3%,rgba(0,0,0,.538) 47.6%,rgba(0,0,0,.455) 52.9%,rgba(0,0,0,.373) 58.2%,rgba(0,0,0,.291) 63.7%,rgba(0,0,0,.212) 69.5%,rgba(0,0,0,.138) 75.8%,rgba(0,0,0,.07) 82.9%,rgba(0,0,0,.019) 91.2%,transparent);
-    -webkit-mask-image: linear-gradient(270deg,#000 0,rgba(0,0,0,.978) 9.5%,rgba(0,0,0,.925) 17.7%,rgba(0,0,0,.857) 24.7%,rgba(0,0,0,.781) 31%,rgba(0,0,0,.701) 36.8%,rgba(0,0,0,.62) 42.3%,rgba(0,0,0,.538) 47.6%,rgba(0,0,0,.455) 52.9%,rgba(0,0,0,.373) 58.2%,rgba(0,0,0,.291) 63.7%,rgba(0,0,0,.212) 69.5%,rgba(0,0,0,.138) 75.8%,rgba(0,0,0,.07) 82.9%,rgba(0,0,0,.019) 91.2%,transparent);
-    min-width: 200px;
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #0f172a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #64748b;
 }
 
 .hover\:bg-blue-200:hover {
