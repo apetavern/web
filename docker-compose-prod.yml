@@ -19,4 +19,5 @@ services:
     restart: always
     ports:
       - 3000:3000
-    volumes: ./public:/usr/src/app/public
+    volumes: 
+      - ./public:/usr/src/app/public
