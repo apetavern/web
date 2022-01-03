@@ -657,8 +657,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-bg-opacity: 1;
   background-color: rgb(59 130 246 / var(--tw-bg-opacity));
 }
-.bg-\[url\(\'\/images\/background-temp\.jpg\'\)\] {
-  background-image: url('/images/background-temp.jpg');
+.bg-\[url\(\'\/images\/background\.png\'\)\] {
+  background-image: url('/images/background.png');
 }
 .bg-cover {
   background-size: cover;
@@ -719,10 +719,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-center {
   text-align: center;
 }
-.font-subtitle {
+.font-title {
   font-family: Sen;
 }
-.font-title {
+.font-subtitle {
   font-family: Sen;
 }
 .text-2xl {
