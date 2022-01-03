@@ -2,14 +2,14 @@
 
 <div class="container p-8 m-auto">
 
-    <div class="h-72 flex w-full py-16 pt-0">
+    <div class="flex flex-col lg:flex-row lg:h-72 w-full py-16 pt-4">
 
         <!-- Left -->
         <img src="https://via.placeholder.com/600x150" class="aspect-[4/1] bg-cover grow rounded-md"
             alt="Placeholder" />
 
         <!-- Right -->
-        <div class="w-1/2 ml-4 shrink flex items-start justify-center flex-col">
+        <div class="lg:w-1/2 lg:ml-4 shrink flex items-start justify-center flex-col">
             <h2 class="font-bold text-2xl py-4">
                 We make the best games for <span class="text-blue-500">s&amp;box</span>.
             </h2>
@@ -21,10 +21,10 @@
 
     </div>
 
-    <div class="h-72 flex w-full py-16 pt-4">
+    <div class="flex flex-col-reverse lg:flex-row lg:h-72 w-full py-16 pt-4">
 
         <!-- Left -->
-        <div class="w-1/2 ml-4 shrink flex items-start justify-center flex-col">
+        <div class="lg:w-1/2 lg:ml-4 shrink flex items-start justify-center flex-col">
             <h2 class="font-bold text-2xl py-4">
                 Meet the <span class="text-blue-500">team</span>.
             </h2>
@@ -44,7 +44,7 @@
 
         <h2 class="font-bold py-4 uppercase text-center">What we've made</h2>
 
-        <div class="flex justify-between items-center -mx-2">
+        <div class="flex justify-between items-center -mx-2 flex-wrap sm:flex-nowrap">
             {{#> game gameName="Frost Fight" }}
             Frost fight is an asymmetric freeze tag created for JamBox Winter 2021. You can play this game on s&box.
             {{/game}}

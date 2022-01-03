@@ -500,8 +500,9 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
-.ml-4 {
-  margin-left: 1rem;
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .flex {
   display: flex;
@@ -518,11 +519,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .aspect-\[8\/3\] {
   aspect-ratio: 8 / 3;
 }
-.h-72 {
-  height: 18rem;
-}
-.h-\[75vh\] {
-  height: 75vh;
+.h-screen {
+  height: 100vh;
 }
 .h-16 {
   height: 4rem;
@@ -532,9 +530,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-full {
   width: 100%;
-}
-.w-1\/2 {
-  width: 50%;
 }
 .flex-1 {
   flex: 1 1 0%;
@@ -556,6 +551,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .flex-col {
   flex-direction: column;
+}
+.flex-col-reverse {
+  flex-direction: column-reverse;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 .items-start {
   align-items: flex-start;
@@ -628,14 +629,11 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.pt-0 {
-  padding-top: 0px;
-}
 .pt-4 {
   padding-top: 1rem;
 }
-.pb-8 {
-  padding-bottom: 2rem;
+.pb-12 {
+  padding-bottom: 3rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -661,8 +659,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
-.text-8xl {
-  font-size: 6rem;
+.text-6xl {
+  font-size: 3.75rem;
   line-height: 1;
 }
 .font-bold {
@@ -696,6 +694,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .shadow-md {
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 .shadow-gray-200 {
@@ -744,5 +747,57 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .sm\:flex {
     display: flex;
+  }
+
+  .sm\:h-\[75vh\] {
+    height: 75vh;
+  }
+
+  .sm\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+
+  .sm\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+}
+@media (min-width: 768px) {
+
+  .md\:aspect-\[6\/7\] {
+    aspect-ratio: 6 / 7;
+  }
+}
+@media (min-width: 1024px) {
+
+  .lg\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .lg\:ml-4 {
+    margin-left: 1rem;
+  }
+
+  .lg\:h-72 {
+    height: 18rem;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+
+  .lg\:pb-8 {
+    padding-bottom: 2rem;
+  }
+}
+@media (min-width: 1280px) {
+
+  .xl\:aspect-\[8\/7\] {
+    aspect-ratio: 8 / 7;
   }
 }
