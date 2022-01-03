@@ -1,0 +1,18 @@
+<div class="min-h-[50vh] py-16 flex items-center flex-col">
+
+    <h2 class="font-bold py-4 uppercase text-center">Days waiting for Leaf's terrain</h2>
+
+    <h1 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2" id="leaf-counter">69</h1>
+    <p class="font-subtitle text-xl text-white font-bold py-2">days</p>
+
+    <script>
+        let target = new Date(2021, 10, 21);
+        let now = new Date();
+
+        var days = Math.round((now - target) / (1000 * 60 * 60 * 24));
+
+        var element = document.querySelector("#leaf-counter");
+        element.innerText = days;
+    </script>
+
+</div>
