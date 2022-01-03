@@ -1,4 +1,73 @@
-<div>
-    <h1>We make games or something</h1>
-    <p>Haha cool check it out!!!!</p>
+{{> hero }}
+
+<div class="container p-8 m-auto">
+
+    <div class="min-h-[50vh] flex w-full py-16 pt-4">
+
+        <!-- Left -->
+        <img src="https://via.placeholder.com/600x250" class="w-1/2 bg-cover min-h-40 grow rounded-md"
+            alt="Placeholder" />
+
+        <!-- Right -->
+        <div class="w-1/2 ml-4 shrink flex items-start justify-center flex-col">
+            <h2 class="font-bold text-2xl py-4">
+                We make the best games for <span class="text-blue-500">s&amp;box</span>.
+            </h2>
+            <p>
+                some more text here about how cool we are and how great our games are. we're the best etc. etc.
+                Cupidatat consectetur consectetur aute dolore in dolore duis laboris anim.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="min-h-[50vh] flex w-full py-16 pt-4">
+
+        <!-- Left -->
+        <div class="w-1/2 ml-4 shrink flex items-start justify-center flex-col">
+            <h2 class="font-bold text-2xl py-4">
+                Meet the <span class="text-blue-500">team</span>.
+            </h2>
+            <p>
+                Est fugiat mollit Lorem duis duis. Culpa adipisicing enim enim ad. Mollit labore cupidatat dolore Lorem
+                tempor aute laborum eiusmod ea adipisicing anim officia eiusmod ex.
+            </p>
+        </div>
+
+        <!-- Right -->
+        <img src="https://via.placeholder.com/600x250" class="w-1/2 bg-cover min-h-40 grow rounded-md"
+            alt="Placeholder" />
+
+    </div>
+
+    <div class="min-h-[50vh] py-16">
+
+        <h2 class="font-bold py-4 uppercase text-center">What we've made</h2>
+
+        <div class="flex justify-between items-center -mx-2">
+            {{#> game gameName="Frost Fight" }}
+            Frost fight is an asymmetric freeze tag created for JamBox Winter 2021. You can play this game on s&box.
+            {{/game}}
+
+            {{#> game gameName="Grubs" }}
+            Grubs is a worms-inspired artillery game for s&box with randomly generated levels.
+            {{/game}}
+
+            {{#> game gameName="Game" }}
+            Game description. Pariatur aliqua cillum voluptate nulla non do laborum officia fugiat aliquip.
+            {{/game}}
+        </div>
+
+    </div>
+
+    <div class="min-h-[50vh] py-16">
+
+        <h2 class="font-bold py-4 uppercase text-center">Apply or something</h2>
+
+        <p class="text-center">Feel like getting involved? All of our projects are
+            <a class="text-gray-500" href="https://github.com/ApeTavern">open source</a>,
+            and we accept both issues and pull requests.
+        </p>
+
+    </div>
 </div>

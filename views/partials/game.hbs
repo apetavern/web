@@ -1,0 +1,19 @@
+<!-- When these get clicked we should probably take the user somewhere they can see info about the game -->
+
+<div class="flex flex-col items-center grow
+        w-full shadow-gray-200
+        rounded-md bg-gray-300 shadow-md text-center
+        overflow-hidden
+        mx-2 aspect-[8/7] relative
+        hover:scale-110 transition-all hover:z-10 cursor-pointer hover:shadow-xl">
+
+    <img src="https://via.placeholder.com/400x150" class="aspect-[8/3] bg-cover w-full min-h-40" alt="Placeholder" />
+
+    <div class="px-4 pt-4 pb-8">
+
+        <h1 class="font-title font-extrabold text-xl py-2">{{ gameName }}</h1>
+        <p>{{> @partial-block }}</p>
+        <p class="absolute bottom-4 left-0 right-0 text-sm py-2">Released 21 July 2017</p>
+
+    </div>
+</div>
