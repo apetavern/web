@@ -5,6 +5,7 @@ const path = require('path')
 
 // Routes
 const indexRouter = require('./routes/index');
+const teamRouter = require('./routes/team');
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.set('view engine', 'hbs');
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', indexRouter);
+app.use('/team', teamRouter);
 
 const server = app.listen(3000, () => {
     console.log('Application started on port 3000')
