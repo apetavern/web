@@ -1,7 +1,8 @@
 {{> hero }}
 
 <div class="min-h-screen">
-    <div class="container m-auto flex flex-col lg:flex-row w-full h-screen py-64">
+    <div class="container m-auto flex flex-col lg:flex-row w-full min-h-screen py-64 
+        px-4 lg:px-0">
 
         <!-- Left -->
         <img src="/images/banner-1.png" class="lg:w-1/2 object-cover grow rounded-md" alt="Placeholder" />
@@ -19,7 +20,7 @@
 
     </div>
 
-    <div class="h-screen relative overflow-hidden">
+    <div class="lg:h-screen relative overflow-hidden py-16">
 
         <video class="absolute opacity-25 min-w-full min-h-full top-0 left-0 -z-10 object-cover object-center
             bg-cover" muted="" loop="" autoplay="" src="/videos/crates.mp4"></video>
@@ -29,8 +30,8 @@
                     class="text-blue-500">games</span>.
             </h2>
 
-            <div
-                class="flex justify-between items-center w-full space-y-4 flex-wrap xl:space-y-0 xl:space-x-4 xl:flex-nowrap">
+            <div class="flex justify-between items-center w-full space-y-4 flex-wrap xl:space-y-0 xl:space-x-4 xl:flex-nowrap
+                px-4 lg:px-0">
                 {{#> game
                 gameName="Frost Fight"
                 gameThumb="https://files.facepunch.com/sbox/org/apetavern/frostfight/thumb.d6d867.jpg"
@@ -55,7 +56,8 @@
 
     </div>
 
-    <div class="container m-auto flex items-center justify-around w-full h-screen">
+    <div class="container m-auto flex items-center justify-around w-full min-h-screen 
+        flex-wrap px-4 lg:px-0 lg:flex-nowrap">
 
         <div class="flex flex-col items-center w-1/3">
 

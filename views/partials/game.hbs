@@ -1,13 +1,13 @@
 <!-- When these get clicked we should probably take the user somewhere they can see info about the game -->
-<div class="w-full z-1 h-64 group
+<div class="w-full z-1 lg:h-64 group
         bg-gray-800 rounded relative border
         border-gray-700 overflow-hidden
-        grow flex">
+        grow flex flex-col lg:flex-row">
 
     <!-- Left -->
-    <div class="p-6 w-1/2">
-        <h3 class="font-title text-6xl sm:text-4xl font-extrabold">{{ gameName }}</h3>
-        <p class="font-subtitle text-md font-bold py-4 uppercase italic">{{ releaseDate }}</p>
+    <div class="p-6 w-full lg:w-1/2">
+        <h3 class="font-title text-2xl sm:text-4xl font-extrabold">{{ gameName }}</h3>
+        <p class="font-subtitle font-bold py-1 lg:py-4 uppercase italic">{{ releaseDate }}</p>
         <p class="">{{> @partial-block }}</p>
 
         <ul class="list-none flex space-x-2 py-2">
@@ -31,6 +31,7 @@
     </div>
 
     <!-- Right -->
-    <div class="m-0 w-1/2 bg-cover bg-center transition-all transform" style="background-image: url('{{gameThumb}}');">
+    <div class="m-0 w-full h-48 lg:h-auto lg:w-1/2 bg-cover bg-center transition-all transform"
+        style="background-image: url('{{gameThumb}}');">
     </div>
 </div>
