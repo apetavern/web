@@ -1,11 +1,10 @@
 {{> hero }}
 
-<div class="container p-8 m-auto min-h-screen">
-
-    <div class="flex flex-col lg:flex-row lg:h-72 w-full my-32">
+<div class="min-h-screen">
+    <div class="container m-auto flex flex-col lg:flex-row w-full h-screen py-64">
 
         <!-- Left -->
-        <img src="/images/banner-1.png" class="lg:w-1/2 aspect-[4/1] object-cover grow rounded-md" alt="Placeholder" />
+        <img src="/images/banner-1.png" class="lg:w-1/2 object-cover grow rounded-md" alt="Placeholder" />
 
         <!-- Right -->
         <div class="lg:w-1/2 lg:ml-4 shrink flex items-start justify-center flex-col">
@@ -13,58 +12,87 @@
                 We make the best games for <span class="text-blue-500">s&amp;box</span>.
             </h2>
             <p>
-                We've made some of s&amp;box's most loved games, including Frost Fight and Grubs.
-            </p>
-        </div>
-
-    </div>
-
-    <div class="flex flex-col-reverse lg:flex-row lg:h-72 w-full my-32">
-
-        <!-- Left -->
-        <div class="lg:w-1/2 lg:ml-4 shrink flex items-start justify-center flex-col">
-            <h2 class="font-bold text-2xl py-4">
-                Meet the <span class="text-blue-500">team</span>.
-            </h2>
-            <p>
                 We're a small team of passionate developers who love making games. We love to create and build
                 games that are fun to play and fun to make.
             </p>
         </div>
 
-        <!-- Right -->
-        <img src="/images/banner-1.png" class="lg:w-1/2 aspect-[4/1] object-cover grow rounded-md" alt="Placeholder" />
-
     </div>
 
-    <div class="my-32">
+    <div class="h-screen relative overflow-hidden">
 
-        <h2 class="font-bold text-2xl text-center py-4">We've made a range of different <span
-                class="text-blue-500">games</span>.
-        </h2>
+        <video class="absolute opacity-25 min-w-full min-h-full top-0 left-0 -z-10 object-cover object-center
+            bg-cover" muted="" loop="" autoplay="" src="/videos/crates.mp4"></video>
 
-        <div class="flex justify-between items-center space-y-4 flex-wrap xl:space-y-0 xl:space-x-4 xl:flex-nowrap">
-            {{#> game
-            gameName="Frost Fight"
-            gameThumb="https://files.facepunch.com/sbox/org/apetavern/frostfight/thumb.d6d867.jpg"
-            releaseDate="Released 23rd December 2021"
-            github="https://github.com/apetavern/sbox-frostfight"
-            sbox="https://sbox.facepunch.com/dev/apetavern/frostfight/"
-            }}
-            Frost fight is an asymmetric freeze tag created for JamBox Winter 2021.
-            {{/game}}
+        <div class="container m-auto h-full flex flex-col items-center justify-center">
+            <h2 class="font-bold text-2xl text-center py-8">We've made a range of different <span
+                    class="text-blue-500">games</span>.
+            </h2>
 
-            {{#> game
-            gameName="Grubs (WIP)"
-            gameThumb="https://cdn.discordapp.com/attachments/912049625337307139/926968876942643300/62akryoy7dd61.jpg"
-            releaseDate="Coming soon"
-            github="https://github.com/apetavern/sbox-grubs"
-            }}
-            Grubs is a worms-inspired artillery game for s&box with randomly generated levels.
-            {{/game}}
+            <div
+                class="flex justify-between items-center w-full space-y-4 flex-wrap xl:space-y-0 xl:space-x-4 xl:flex-nowrap">
+                {{#> game
+                gameName="Frost Fight"
+                gameThumb="https://files.facepunch.com/sbox/org/apetavern/frostfight/thumb.d6d867.jpg"
+                releaseDate="Released 23rd December 2021"
+                github="https://github.com/apetavern/sbox-frostfight"
+                sbox="https://sbox.facepunch.com/dev/apetavern/frostfight/"
+                }}
+                Frost fight is an asymmetric freeze tag created for JamBox Winter 2021.
+                {{/game}}
+
+                {{#> game
+                gameName="Grubs (WIP)"
+                gameThumb="https://cdn.discordapp.com/attachments/912049625337307139/926968876942643300/62akryoy7dd61.jpg"
+                releaseDate="Coming soon"
+                github="https://github.com/apetavern/sbox-grubs"
+                }}
+                Grubs is a worms-inspired artillery game for s&box with randomly generated levels.
+                {{/game}}
+            </div>
+
         </div>
 
     </div>
 
-    {{> stats }}
+    <div class="container m-auto flex items-center justify-around w-full h-screen">
+
+        <div class="flex flex-col items-center w-1/3">
+
+            <h2 class="font-bold font-subtitle py-4 uppercase text-center">Copies sold</h2>
+
+            <h3 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2">2.3</h3>
+            <p class="font-subtitle text-xl text-white font-bold py-2">billion</p>
+
+        </div>
+
+        <div class="flex flex-col items-center w-1/3">
+
+            <h2 class="font-bold font-subtitle py-4 uppercase text-center">Games finished</h2>
+
+            <h3 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2">2</h3>
+            <p class="font-subtitle text-xl text-white font-bold py-2">games</p>
+
+        </div>
+
+        <div class="flex flex-col items-center w-1/3">
+
+            <h2 class="font-bold font-subtitle py-4 uppercase text-center">Days waiting for Leaf's terrain</h2>
+
+            <h3 class="font-title text-6xl sm:text-8xl text-white font-extrabold py-2" id="leaf-counter">69</h3>
+            <p class="font-subtitle text-xl text-white font-bold py-2">days</p>
+
+            <script>
+                let target = new Date(2021, 10, 21);
+                let now = new Date();
+
+                var days = Math.round((now - target) / (1000 * 60 * 60 * 24));
+
+                var element = document.querySelector("#leaf-counter");
+                element.innerText = days;
+            </script>
+
+        </div>
+
+    </div>
 </div>
