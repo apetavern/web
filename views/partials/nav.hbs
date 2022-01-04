@@ -8,8 +8,8 @@
             <div class="flex-1 flex items-center justify-between">
                 <div class="flex-shrink-0 flex items-center">
 
-                    <a href="/" class="text-gray-100 hover:bg-blue-200 hover:bg-opacity-10 hover:text-blue-500 transition-all px-4 py-2 rounded-xl text-sm
-                font-bold">
+                    <a href="/" class="text-gray-100 hover:bg-blue-200 hover:bg-opacity-25 transition-all px-4 py-2 rounded-xl text-sm font-bold
+                        {{#if isIndex}} hover:text-white {{else}} hover:text-blue-500 {{/if}}">
                         🐒 Ape Tavern
                     </a>
 
@@ -17,8 +17,8 @@
 
                 <!-- This stuff hides on mobile, works for now but we need a proper menu later -->
                 <nav class="hidden space-x-4 sm:flex">
-                    <a href="/team"
-                        class="text-gray-100 hover:bg-blue-200 hover:bg-opacity-10 hover:text-blue-500 transition-all px-4 py-2 rounded-xl text-sm">
+                    <a href="/team" class="text-gray-100 hover:bg-blue-200 hover:bg-opacity-25 transition-all px-4 py-2 rounded-xl text-sm
+                        {{#if isIndex}} hover:text-white {{else}} hover:text-blue-500 {{/if}}">
                         <i class="fas fa-users"></i>
                         Team
                     </a>
