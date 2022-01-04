@@ -508,6 +508,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .hidden {
   display: none;
 }
+.aspect-video {
+  aspect-ratio: 16 / 9;
+}
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
