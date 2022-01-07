@@ -1,26 +1,26 @@
-<li class="flex shrink items-center justify-start w-full xl:w-1/4 p-4 h-min">
+<li class="flex shrink items-center justify-start w-full lg:w-1/4 p-4 h-min">
 
     <div class="flex aspect-square">
         <img src="{{ avatar }}" class="w-16 rounded-full aspect-square" alt="">
     </div>
 
-    <div class="flex flex-col justify-start pl-4 h-full">
+    <div class="flex flex-col justify-start pl-4 h-full flex-nowrap">
 
         <div class="flex flex-col">
             <p class="font-bold">{{ name }}</p>
             <p class="text-xs">{{ position }}</p>
         </div>
 
-        <div class="h-6 my-1">
+        <div class="h-6 my-1 flex justify-start flex-nowrap shrink">
             {{#if twitter}}
-            <a class="uppercase text-xs text-white bg-blue-500 rounded px-2 py-1" href="{{ twitter }}"><i
-                    class="fab fa-twitter"></i>
+            <a class="uppercase xl:text-xs text-[0.65rem] text-white bg-blue-500 rounded px-2 py-1 mr-1"
+                href="{{ twitter }}"><i class="fab fa-twitter"></i>
                 Twitter</a>
             {{/if}}
 
             {{#if website}}
-            <a class="uppercase text-xs text-white bg-blue-500 rounded px-2 py-1" href="{{ website }}"><i
-                    class="fas fa-link"></i>
+            <a class="uppercase xl:text-xs text-[0.65rem] text-white bg-blue-500 rounded px-2 py-1"
+                href="{{ website }}"><i class="fas fa-link"></i>
                 Web</a>
             {{/if}}
         </div>
