@@ -32,7 +32,7 @@ html {
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: Poppins; /* 4 */
+  font-family: Mulish; /* 4 */
 }
 
 /*
@@ -523,8 +523,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-8 {
   height: 2rem;
 }
+.h-32 {
+  height: 8rem;
+}
 .h-16 {
   height: 4rem;
+}
+.h-24 {
+  height: 6rem;
+}
+.h-12 {
+  height: 3rem;
 }
 .h-min {
   height: -webkit-min-content;
@@ -545,6 +554,12 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 .w-full {
   width: 100%;
+}
+.w-48 {
+  width: 12rem;
+}
+.w-24 {
+  width: 6rem;
 }
 .w-16 {
   width: 4rem;
@@ -738,10 +753,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   text-align: center;
 }
 .font-subtitle {
-  font-family: Sen;
+  font-family: Meera Inimai;
 }
 .font-title {
-  font-family: Sen;
+  font-family: Londrina Solid;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -773,14 +788,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 .font-bold {
   font-weight: 700;
 }
-.font-extrabold {
-  font-weight: 800;
-}
 .uppercase {
   text-transform: uppercase;
-}
-.italic {
-  font-style: italic;
 }
 .text-blue-500 {
   --tw-text-opacity: 1;

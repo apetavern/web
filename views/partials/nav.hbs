@@ -4,13 +4,14 @@
 {{/if}}
 ">
     <div class="container mx-auto px-4">
-        <div class="relative flex items-center justify-between h-16">
+        <div class="relative flex items-center justify-between 
+          {{#if isIndex}} h-32 {{else}} h-16 {{/if}}">
             <div class="flex-1 flex items-center justify-between">
                 <div class="flex-shrink-0 flex items-center">
 
-                    <a href="/" class="text-gray-100 hover:bg-blue-200 hover:bg-opacity-25 transition-all px-4 py-2 rounded-xl text-sm font-bold
-                        {{#if isIndex}} hover:text-white {{else}} hover:text-blue-500 {{/if}}">
-                        🐒 Ape Tavern
+                    <a href="/" class="relative aspect-video {{#if isIndex}} w-48 h-24 {{else}} w-24 h-12 {{/if}}">
+                        <img src="{{#if isIndex}} /images/logo/white/full.svg {{else}} /images/logo/color/full.svg {{/if}}"
+                            class="absolute w-full h-full object-cover" />
                     </a>
 
                 </div>

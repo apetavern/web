@@ -2,9 +2,9 @@ module.exports = {
   content: ["./views/**/*.hbs"],
   theme: {
     fontFamily: {
-      "sans": "Poppins",
-      "title": "Sen",
-      "subtitle": "Sen"
+      "sans": "Mulish",
+      "title": "Londrina Solid",
+      "subtitle": "Meera Inimai"
     },
     extend: {},
   },
