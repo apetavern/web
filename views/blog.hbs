@@ -1,10 +1,17 @@
-<main class="min-h-screen">
-    <section class="container m-auto flex flex-col lg:flex-row w-full min-h-screen py-64 
-        px-4 xl:px-0 items-center">
-{{#if hasContent }}
-    {{{blogpost}}}
-{{else}}
-    404
-{{/if}}
+<main class="container p-8 m-auto min-h-screen">
+    <section class="min-h-[50vh] my-32">
+        {{#if hasContent }}
+            {{{blogpost}}}
+        {{else}}
+            <ul class="items-center -m-4 flex flex-wrap justify-items-stretch justify-center">
+                {{> blog-entry
+                title="Epic Blog Moment"
+                blurb="In this blog, we did some things. You should read about them."
+                date="Sunday, February 6, 2022"
+                header="/images/blogs/sample.png"
+                url="/blog/sample"
+                }}
+            </ul>
+        {{/if}}
     </section>
 </main>
