@@ -1,7 +1,9 @@
 <main class="container p-8 m-auto min-h-screen">
     <section class="min-h-[50vh] my-32">
         {{#if hasContent }}
-            {{{blogpost}}}
+            <div class="blogpost">
+                {{{blogpost}}}
+            </div>
         {{else}}
             <ul class="items-center -m-4 flex flex-wrap justify-items-stretch justify-center">
                 {{> blog-entry
@@ -9,7 +11,7 @@
                 blurb="In this blog, we did some things. You should read about them."
                 date="Sunday, February 6, 2022"
                 header="/images/blogs/sample.png"
-                url="/blog/sample"
+                url="/blog/welcome"
                 }}
             </ul>
         {{/if}}
