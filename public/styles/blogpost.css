@@ -1,19 +1,43 @@
+.blogpost {
+    width: 60%;
+}
+
+.blogpost .header {
+    margin: 12px;
+}
+
+.blogpost .post {
+    background-color: black;
+    border-radius: 2%;
+    padding: 16px;
+}
+
 .blogpost h1 {
     font-size: 72px;
+    font-weight: bold;
+    text-align: center;
 }
 
 .blogpost h2 {
     font-size: 64px;
+    font-weight: bold;
 }
 
 .blogpost h3 {
-    font-size: 32px;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.blogpost h5 {
+    font-size: 24px;
+    color: lightgray;
+    margin-left: 6px;
 }
 
 .blogpost p {
-    font-size: 18px;
-}
-
-.blogpost {
-    
+    margin-top: 12px;
+    font-size: 16px;
+    padding: 16px;
+    text-align: justify;
 }

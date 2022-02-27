@@ -1,7 +1,11 @@
 const express = require('express');
 const router = express.Router();
-const md = require('markdown-it')();
 const fs = require('fs');
+
+const md = require('markdown-it')()
+    .use(require('markdown-it-container'), 'header')
+    .use(require('markdown-it-container'), 'post');
+    
 
 const blogpath = 'public/blogs/';
 

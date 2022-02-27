@@ -4,6 +4,7 @@
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2",
     "markdown-it": "^12.3.2",
+    "markdown-it-container": "^3.0.0",
     "path": "^0.12.7",
     "postcss": "^8.4.5",
     "postcss-cli": "^9.1.0"

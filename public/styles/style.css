@@ -764,6 +764,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-center {
   text-align: center;
 }
+.align-middle {
+  vertical-align: middle;
+}
 .font-subtitle {
   font-family: Meera Inimai;
 }
