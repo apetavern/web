@@ -2,7 +2,44 @@
 
 # Welcome to Ape Tavern
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our first blog has a welcome to our organization, and covers the s&box games we have started working on.
+
+:::
+
+::: post
+
+### Ape Tavern
+#### by [Trundler](/team)
+
+Welcome to the first Ape Tavern developer update! I started this group a few months ago in anticipation of the release of s&box - I wanted to bring together quality, like-minded developers and artists who are passionate about games. Since our inception, we have grown to a [team of 8](/team). We made [Frost Fight](https://github.com/apetavern/sbox-frostfight) in 3 days for the Eagle One Christmas Game Jam, and now are working on multiple games for s&box, including [FortWars](https://github.com/apetavern/sbox-fortwars). While we work, we love to have regular playtests to bring the community together, and get feedback on the direction of our games. Feel free to join our [Discord](https://discord.gg/g4JczwdCcN) to join in, follow our development, or just chat about s&box and game development.
+
+![apetavern-logo](/images/logo/white/full.svg)
+
+While we are currently a small, tight knit group, we are always accepting applications for new members. We are looking for talented artists and animators in particular. If you want to apply, you can follow [this link](https://forms.gle/z8NaRN2NRNWLXuiTA). Currently, all our games are open source. Any member of Ape Tavern can propose a project and recruit developers to work on it with them, meaning you don't need to contribute to games you aren't interested in. We have tentative monetization schemes planned in anticipation of s&box's release, so no developer is expected to work for free.
+
+:::
+
+::: post
+
+### Shiny Website
+#### by [Trundler](/team)
+
+![apetavern-website](/images/blogs/welcome/website.png)
+
+Alex and I put together this website as a welcome to Ape Tavern. Alex did most of the styling before he dropped on me the fact that he does not like Tailwind. After playing around with it, I have begun to realize that it doesn't make much sense for this type of website, so we may switch it out before long. I also created a low-maintenance blog, which you are currently reading. It uses markdown for the posts, making it easy to format, and adding a new post is as simple as committing a new markdown file. As someone who works with cloud technologies on a regular basis, I felt compelled to setup this app to be containerized, so deploying it will always be simple and quick. It is over-engineered for what is essentially a static website, but we may integrate this app with our games in the future, so it'll be easy to expand.
+
+:::
+
+::: post
+
+### Grubs
+#### by [Trundler](/team)
+
+When I pitched the idea of "Worms in s&box" to the original team, we thought it was a great project to start out with. We (or I) may have been overestimating our abilities at the time. I have nearly no experience in game development, and some of the features we wanted for Grubs were rather technically challenging, and our interests moved on as terrain was being worked on. We will revisit Grubs in the future, along with a complete re-write, but for the time being, Grubs is on hold while we pursue other game ideas.
+
+![worms-menu](/images/blogs/welcome/worms.jpg)
+
+Above is a part of a menu concept that I worked on for Grubs. ShadowBrain worked on the background scene (and created Grub Terry), and Alex helped with some touchups. A worms clone has been an idea I've wanted to create for a long time, so I look forward to revisting Grubs in the future when our team has matured.
 
 :::
 
