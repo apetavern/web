@@ -1,0 +1,19 @@
+<main class="container p-8 m-auto min-h-screen">
+    <section class="min-h-[50vh] my-32 justify-center align-middle flex">
+        {{#if hasContent }}
+            <div class="blogpost">
+                {{{blogpost}}}
+            </div>
+        {{else}}
+            <ul class="items-center -m-4 flex flex-wrap justify-items-stretch justify-center">
+                {{> blog-entry
+                title="Welcome to Ape Tavern"
+                blurb="Check out our first blog, all about our work on s&box."
+                date="Saturday, April 8, 2022"
+                header="/images/blogs/sample.png"
+                url="/blog/welcome"
+                }}
+            </ul>
+        {{/if}}
+    </section>
+</main>

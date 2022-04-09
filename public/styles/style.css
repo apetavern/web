@@ -514,6 +514,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-full {
   height: 100%;
 }
+.h-min {
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+}
 .h-48 {
   height: 12rem;
 }
@@ -535,22 +540,17 @@ Ensure the default browser behavior of the `hidden` attribute.
 .h-12 {
   height: 3rem;
 }
-.h-min {
-  height: -webkit-min-content;
-  height: -moz-min-content;
-  height: min-content;
-}
 .h-6 {
   height: 1.5rem;
 }
 .min-h-screen {
   min-height: 100vh;
 }
-.min-h-full {
-  min-height: 100%;
-}
 .min-h-\[50vh\] {
   min-height: 50vh;
+}
+.min-h-full {
+  min-height: 100%;
 }
 .w-full {
   width: 100%;
@@ -653,6 +653,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 .rounded-full {
   border-radius: 9999px;
 }
+.rounded-t-xl {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+.rounded-b-xl {
+  border-bottom-right-radius: 0.75rem;
+  border-bottom-left-radius: 0.75rem;
+}
 .border {
   border-width: 1px;
 }
@@ -663,6 +671,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+.bg-slate-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity));
 }
 .bg-black {
   --tw-bg-opacity: 1;
@@ -699,11 +711,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .p-8 {
   padding: 2rem;
 }
-.p-6 {
-  padding: 1.5rem;
-}
 .p-4 {
   padding: 1rem;
+}
+.p-6 {
+  padding: 1.5rem;
 }
 .py-64 {
   padding-top: 16rem;
@@ -752,6 +764,9 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-center {
   text-align: center;
 }
+.align-middle {
+  vertical-align: middle;
+}
 .font-subtitle {
   font-family: Meera Inimai;
 }
@@ -773,6 +788,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 .text-sm {
   font-size: 0.875rem;
@@ -914,6 +933,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:w-1\/3 {
     width: 33.333333%;
+  }
+
+  .lg\:w-2\/3 {
+    width: 66.666667%;
   }
 
   .lg\:w-1\/4 {
