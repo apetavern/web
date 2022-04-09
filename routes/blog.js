@@ -4,7 +4,10 @@ const fs = require('fs');
 
 const md = require('markdown-it')()
     .use(require('markdown-it-container'), 'header')
-    .use(require('markdown-it-container'), 'post');
+    .use(require('markdown-it-container'), 'post')
+    .use(require('markdown-it-video', {
+        youtube: { width: 640, height: 390 }
+    }));
     
 
 const blogpath = 'public/blogs/';

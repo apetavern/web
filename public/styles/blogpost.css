@@ -52,7 +52,15 @@
     text-align: justify;
 }
 
+.blogpost p img {
+    margin: auto;
+}
+
 .blogpost a {
     font-style: italic;
     color: lightsalmon;
+}
+
+.blogpost .embed-responsive iframe {
+    margin: auto;
 }

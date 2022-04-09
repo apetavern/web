@@ -15,7 +15,7 @@ Welcome to the first Ape Tavern developer update! I started this group a few mon
 
 ![apetavern-logo](/images/logo/white/full.svg)
 
-While we are currently a small, tight knit group, we are always accepting applications for new members. We are looking for talented artists and animators in particular. If you want to apply, you can follow [this link](https://forms.gle/z8NaRN2NRNWLXuiTA). Currently, all our games are open source. Any member of Ape Tavern can propose a project and recruit developers to work on it with them, meaning you don't need to contribute to games you aren't interested in. We have tentative monetization schemes planned in anticipation of s&box's release, so no developer is expected to work for free.
+While we are currently a small, tight knit group, we are always accepting applications for new members. We are looking for talented artists and animators in particular. If you want to apply, you can follow [this link](https://forms.gle/z8NaRN2NRNWLXuiTA). Currently, all our games are open source. Any member of Ape Tavern can propose a project and recruit developers to work on it with them, meaning you don't need to contribute to games you aren't interested in.
 
 :::
 
@@ -26,7 +26,7 @@ While we are currently a small, tight knit group, we are always accepting applic
 
 ![apetavern-website](/images/blogs/welcome/website.png)
 
-Alex and I put together this website as a welcome to Ape Tavern. Alex did most of the styling before he dropped on me the fact that he does not like Tailwind. After playing around with it, I have begun to realize that it doesn't make much sense for this type of website, so we may switch it out before long. I also created a low-maintenance blog, which you are currently reading. It uses markdown for the posts, making it easy to format, and adding a new post is as simple as committing a new markdown file. As someone who works with cloud technologies on a regular basis, I felt compelled to setup this app to be containerized, so deploying it will always be simple and quick. It is over-engineered for what is essentially a static website, but we may integrate this app with our games in the future, so it'll be easy to expand.
+Alex and I put together this website as a welcome to Ape Tavern. Alex did most of the styling before he dropped on me the fact that he does not like Tailwind. After playing around with it, I have begun to realize that it doesn't make much sense for this type of website, so we may switch it out before long. I also created a low-maintenance blog, which you are currently reading. It uses markdown for the posts, making it easy to format, and adding a new post is as simple as committing a new markdown file. As someone who works with cloud technologies on a regular basis, I felt compelled to setup this app to be containerized, so deploying it will always be simple and quick. It is over-engineered for what is essentially a static website, but we may integrate this app with our games in the future, meaning it will be easy to expand.
 
 :::
 
@@ -45,18 +45,6 @@ Above is a part of a menu concept that I worked on for Grubs. ShadowBrain worked
 
 ::: post
 
-### Eden Building
-#### by [Alex](/team)
-
-This month I worked on the initial building systems for Eden. It's based on snap points, which means we're not confined to a grid, but ideally (for gameplay and simplicity's sake) we'll have standardized sizes for each building piece. While there are some bugs, and things that might get changed further down the line, the building system is probably 90% of the way there and will hopefully be there when we get people testing our game.
-Here's a video of me doing some building with an early version of the building system:
-
-![Building system video](https://i.imgur.com/HN83EDj.mp4)
-
-:::
-
-::: post
-
 ### Fortwars Improvements
 #### by [Alex](/team)
 
@@ -66,11 +54,11 @@ For gunplay, I was looking through the Fortwars weapon code when I'd noticed tha
 
 Here's what the guns did before:
 
-![Before](https://i.imgur.com/UdnUxKG.mp4)
+@[youtube](https://youtu.be/HeSqsjzG1yU)
 
 Here's what they do now:
 
-![After](https://i.imgur.com/2hUeuaI.mp4)
+@[youtube](https://youtu.be/JOQaQCSRqPw)
 
 As for UI, I also took some of the Hover scoreboard and re-purposed it for Fortwars (both games are CTF-based, making it a pretty easy task). I made some tweaks and adjustments in order for it to better match our Fortwars UI style, as well as some functionality changes. Here's what it ended up looking like:
 
@@ -78,25 +66,97 @@ As for UI, I also took some of the Hover scoreboard and re-purposed it for Fortw
 
 :::
 
-### Ape Tavern
+::: post
 
-##### by Trundler
+### Fortwars Art Showcase
+#### by [ShadowBrain](/team)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus quis varius quam quisque id diam vel quam elementum. Commodo ullamcorper a lacus vestibulum. Quisque non tellus orci ac auctor augue. Imperdiet proin fermentum leo vel orci. At tempor commodo ullamcorper a lacus vestibulum sed arcu non. Risus sed vulputate odio ut enim blandit volutpat. Sed enim ut sem viverra aliquet eget sit amet tellus. Et malesuada fames ac turpis egestas integer eget aliquet. Etiam tempor orci eu lobortis elementum nibh. Id aliquet lectus proin nibh nisl condimentum id venenatis.
+Here is a showcase of the art I have done for Fortwars.
 
-Suscipit adipiscing bibendum est ultricies integer quis. Ultricies mi quis hendrerit dolor magna eget est lorem. Vestibulum morbi blandit cursus risus at ultrices mi tempus imperdiet. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Magna eget est lorem ipsum dolor sit. Libero justo laoreet sit amet cursus. Id diam maecenas ultricies mi eget. Bibendum ut tristique et egestas. Eget velit aliquet sagittis id consectetur purus ut faucibus. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Bibendum ut tristique et egestas quis ipsum. Magnis dis parturient montes nascetur ridiculus mus.
+@[youtube](https://youtu.be/r276UHWwi_Y)
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada. Proin libero nunc consequat interdum varius sit amet mattis vulputate. In eu mi bibendum neque egestas. Justo laoreet sit amet cursus sit amet. Quis eleifend quam adipiscing vitae proin sagittis nisl. Imperdiet sed euismod nisi porta lorem. Amet est placerat in egestas erat imperdiet sed euismod nisi. Nisl nisi scelerisque eu ultrices vitae auctor eu augue. Dolor sit amet consectetur adipiscing elit duis tristique sollicitudin nibh. Nibh mauris cursus mattis molestie. A diam maecenas sed enim ut sem. Quisque non tellus orci ac. Sed viverra ipsum nunc aliquet bibendum enim. Viverra nibh cras pulvinar mattis nunc sed blandit libero volutpat. Placerat in egestas erat imperdiet sed euismod nisi porta.
+:::
 
-Facilisis gravida neque convallis a. Sit amet commodo nulla facilisi nullam vehicula. Tincidunt tortor aliquam nulla facilisi cras fermentum odio eu. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Eget sit amet tellus cras adipiscing enim eu turpis. Eleifend donec pretium vulputate sapien. Libero id faucibus nisl tincidunt. A arcu cursus vitae congue. Tincidunt tortor aliquam nulla facilisi. Mauris in aliquam sem fringilla ut morbi. Vitae nunc sed velit dignissim sodales ut eu sem integer. Sed ullamcorper morbi tincidunt ornare massa eget egestas. Est ultricies integer quis auctor elit sed vulputate mi. In vitae turpis massa sed elementum tempus egestas sed sed. Elementum facilisis leo vel fringilla est ullamcorper. Risus ultricies tristique nulla aliquet enim.
+::: post
 
-Sit amet justo donec enim diam. Lectus urna duis convallis convallis. Diam vulputate ut pharetra sit. Hendrerit dolor magna eget est. Facilisis mauris sit amet massa. Curabitur vitae nunc sed velit dignissim sodales ut eu. Scelerisque varius morbi enim nunc. Sem viverra aliquet eget sit amet tellus. Nibh venenatis cras sed felis eget velit aliquet sagittis. In hac habitasse platea dictumst. Commodo elit at imperdiet dui accumsan sit amet nulla facilisi.
+### Eden
+#### by [DevulTj](/team)
 
-Ape Tavern is a group of developers and artists who love to make games.
-We strive to make the best games for s&box, and want to help cultivate
-s&box into a warm and welcoming atmosphere for developers. Feel free to 
-check out the [team](https://apetavern.com/team), join the
-[Discord](https://discord.gg/g4JczwdCcN), or keep on reading to see what 
-we've been up to.
+We’re starting on a new project, named Eden, in the attempt to make s&box’s first survival game. This is no small task, and it’s ambitious. Buckle in.
+
+:::
+
+::: post
+
+### Eden Building
+#### by [Alex](/team)
+
+This month I worked on the initial building systems for Eden. It's based on snap points, which means we're not confined to a grid, but ideally (for gameplay and simplicity's sake) we'll have standardized sizes for each building piece. While there are some bugs, and things that might get changed further down the line, the building system is probably 90% of the way there and will hopefully be there when we get people testing our game.
+Here's a video of me doing some building with an early version of the building system:
+
+@[youtube](https://youtu.be/VRJlKGCrRnw)
+
+:::
+
+::: post
+
+### Inventory, Containers
+##### by [DevulTj](/team)
+
+@[youtube](https://youtu.be/LonQ0k09_rQ)
+
+I’ve been working on the core of Eden. The Inventory being a big part of it. We’ve got a pretty good set up now, with item types, ability to interact with items, and a lot of room for expansion. Anything you hold in your hand is an item and it’s all configured with s&box assets. Items also have durability, and it all just works! We also have world containers that you can interact and place items in.
+
+@[youtube](https://youtu.be/ymBBB9ybMfY)
+
+:::
+
+::: post
+
+### Crafting
+##### by [DevulTj](/team)
+
+![eden_crafting](/images/blogs/welcome/eden_crafting.png)
+
+I’ve been working on the core of Eden. The Inventory being a big part of it. We’ve got a pretty good set up now, with item types, ability to interact with items, and a lot of room for expansion. Anything you hold in your hand is an item and it’s all configured with s&box assets. Items also have durability, and it all just works! We also have world containers that you can interact and place items in.
+
+:::
+
+::: post
+
+### Resources
+#### by [Matt944](/team)
+
+I’ve been working on creating a base implementation for resources and various gatherable items using s&box assets for easy implementation of additional resources in the future.
+
+![eden_resources](/images/blogs/welcome/e_res.png)
+ 
+Resources needed to calculate their yield based on the current item you’re using to gather them - an axe for cutting wood should provide little to no yield if you’re trying to gather from a rock. I’ve also tied this nicely into DevulTj’s durability system and scaled the remaining durability deduction accordingly.
+@[youtube](https://youtu.be/XwoJI2sEJrk)
+
+We needed a way to convey the amount of each resource remaining within each node. We've decided to do this the same way as Rust - rocks for example should change shape as you’re gathering from them, all of this is specified within the s&box resource asset. We have plans to further enhance this with audio queues later down the line.
+@[youtube](https://youtu.be/kjTAuxjbRuw)
+
+:::
+
+::: post
+
+### Palm Trees
+#### by [Pukes](/team)
+
+![eden_palm_tree](/images/blogs/welcome/eden_palm_tree.png)
+
+Got to work on the first basic palm tree for Eden, my organic sculpting isn’t my strongest area but I learned a lot from just this alone. I think over time I’ll end up replacing some of these models as we move forward and improve, but for now I think it's a good start :)
+
+Some new models that will be coming out soon include some basic rocks/ores/vines and a fishing rod (because who doesn’t love a good fishing minigame).
+
+:::
+
+::: post
+
+### Wrap-Up
+#### by [Trundler](/team)
+
+This was our first post, but we are excited to make more. We have ideas and amibitions, and are excited to see where s&box goes in the coming years. We hope to have more cool things to show off and play in the near future! Furthermore, we are hoping to create videos, including demos and tutorials, for s&box related content. Feel free to follow us on [Twitter](https://twitter.com/apetavern) or join our [Discord](https://discord.gg/g4JczwdCcN) to keep up to date with our work!
 
 :::
