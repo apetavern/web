@@ -75,6 +75,8 @@ Here is a showcase of the art I have done for Fortwars.
 
 @[youtube](https://youtu.be/r276UHWwi_Y)
 
+Editors Note: Willow did the particles for Fortwars.
+
 :::
 
 ::: post
