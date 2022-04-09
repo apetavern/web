@@ -1,11 +1,11 @@
-<main class="container p-8 m-auto min-h-screen">
-    <section class="min-h-[50vh] my-32 justify-center align-middle flex">
+<main class="container p-4 md-p-8 m-auto min-h-screen">
+    <section class="min-h-[50vh] my-32 justify-center align-middle md-flex m-auto">
         {{#if hasContent }}
             <div class="blogpost">
                 {{{blogpost}}}
             </div>
         {{else}}
-            <ul class="items-center -m-4 flex flex-wrap justify-items-stretch justify-center">
+            <ul class="items-center -m-4 flex flex-wrap justify-center">
                 {{> blog-entry
                 title="Welcome to Ape Tavern"
                 blurb="Check out our first blog, all about our work on s&box."
