@@ -118,7 +118,7 @@ I’ve been working on the core of Eden. The Inventory being a big part of it. W
 
 ![eden_crafting](/images/blogs/welcome/eden_crafting.png)
 
-I’ve been working on the core of Eden. The Inventory being a big part of it. We’ve got a pretty good set up now, with item types, ability to interact with items, and a lot of room for expansion. Anything you hold in your hand is an item and it’s all configured with s&box assets. Items also have durability, and it all just works! We also have world containers that you can interact and place items in.
+Eden is a survival game, so crafting is heavily encouraged and imperative to the gameplay loop. The UI is not final, but we have a pretty good foundation for crafting items and implementing them on top of the item system.
 
 :::
 
