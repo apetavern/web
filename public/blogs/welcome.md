@@ -68,14 +68,50 @@ As for UI, I also took some of the Hover scoreboard and re-purposed it for Fortw
 
 ::: post
 
-### Fortwars Art Showcase
+### Art Showcase
 #### by [ShadowBrain](/team)
 
-Here is a showcase of the art I have done for Fortwars.
+Hey there, I’m ShadowBrain and I was the lead artist on Grubs and most of Fortwars, with the exception of some really sweet test maps made by [Willow](/team), who also made all custom particles seen in any of our games, since I’m still kind of getting to grips with particles in Source 2.
+
+#### Grubs
+
+Grubs was a lot of fun to work on, the fact that the camera is kind of far removed from the player means a toony artstyle with exaggerated proportions works well, which is my favorite artstyle to work in.
+
+Here’s a quick run-through of all the weapons I made for Grubs:
+
+@[youtube](https://youtu.be/CBOVqI8hYPg)
+
+As you can see most of these are pretty toony looking, proportions had to be larger and more clear because of the far-away camera position.
+
+I also had the task of making the main Grubs character used for all the worms on the battlefield, which had to be able to bone merge with existing Terry items so people can customize their character and still have some of that show up inside the gamemode.
+
+Here’s a quick showcase of the character and its animations:
+
+@[youtube](https://youtu.be/t3y-305BjFo)
+
+This one was interesting to put together, was my first time setting something like this up in Source2 but a lot of the AnimGraph stuff made sense to me right off the bat because of my previous experience making semi-complex Mecanim setups in Unity, which is an extremely similar tool.
+The main thing that makes this complex is all the hold poses and blends it has to do for each weapon.
+
+Here’s a quick screenshot of what the graph looks like for the grubs character:
+ 
+![Grubs Character Animgraph](https://i.imgur.com/Qy635LB.png)
+
+This animgraph is maybe not perfect/ideal in all aspects but I’m fairly proud of it.
+There’s some weird redundant bits like all the aim poses use the same animation blend because the aim is decided by the hands’ root bone, and the actual hand poses and decided by the firing animations which is why there’s a whole row of unique firing animations on there for that…
+Was quite a lot of fun to figure all this stuff out, I definitely learned a lot in the process.
+#### Fortwars
+
+Here is a short showcase of the art I’ve done for Fortwars:
 
 @[youtube](https://youtu.be/r276UHWwi_Y)
 
-Editors Note: Willow did the particles for Fortwars.
+The idea behind the fortwars art style was to keep things slightly toony, I personally really like Terry’s art style and proportions so whenever I get the chance I’ll try to insert some of that into any art I make for S&box.
+With most of the weapons I tended to lean towards a lot of flat colors since that lends itself well to making assets really quickly.
+
+#### Eden
+
+For Eden I’m also doing a bunch of art assets in the future, so far I’ve only done the basics, the Axe as well as the first person arm animations.
+Definitely more to come, together with [Pukes](/team) and any other artist at Ape Tavern who ends up making art.
 
 :::
 
