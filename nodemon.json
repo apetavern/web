@@ -1,7 +1,0 @@
-{
-    "watch": ["app.js", "./"],
-    "ext": "js, css, hbs",
-    "events": {
-        "restart": "npm run tailwind:css"
-    }
-  }
