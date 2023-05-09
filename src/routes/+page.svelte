@@ -1,12 +1,28 @@
 <script>
+	import { onMount } from 'svelte';
 	import Socials from '../components/Socials.svelte';
+	import { ParallaxBackground } from '../scripts/parallax-background';
+
+	onMount(() => {
+		new ParallaxBackground('#hero-background');
+	});
 </script>
 
 <div
 	class="flex flex-col py-16 items-start justify-center h-[calc(100vh-8rem)] backdrop-blur relative overflow-hidden"
 >
-	<section class="container mx-auto p-8 pb-4">
-		<h1 class="font-bold text-6xl sm:text-8xl text-white py-2">Ape Tavern</h1>
+	<div
+		id="hero-background"
+		class="opacity-50 absolute inset-0 scale-110 bg-[url('/images/brand/background.png')] blur-md -z-10 object-cover object-center
+        bg-cover overflow-hidden"
+	/>
+
+	<section class="container mx-auto p-8 pb-4 -mt-12">
+		<img
+			src="images/brand/apetavern_logo_transparent_cream.png"
+			class="-mx-4 md:max-w-xl"
+			alt="logo"
+		/>
 		<p class="font-semibold text-xl sm:text-2xl text-white py-2 pb-4">
 			We're a small team of developers who love making games.
 		</p>
