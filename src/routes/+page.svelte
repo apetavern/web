@@ -23,8 +23,8 @@
 			class="-mx-4 md:max-w-xl"
 			alt="logo"
 		/>
-		<p class="font-semibold text-xl sm:text-2xl text-white py-2 pb-4">
-			We're a small team of developers who love making games.
+		<p class="font-semibold text-xl sm:text-2xl py-2 pb-4 text-ape-cream">
+			We're a small team of <span class="text-ape-orange">developers</span> who love making games.
 		</p>
 	</section>
 
