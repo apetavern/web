@@ -20,8 +20,8 @@
 				<nav class="space-x-4">
 					<a
 						href="/team"
-						class="text-gray-100 hover:bg-blue-200 hover:bg-opacity-25
-						transition-all md:px-4 px-2 py-2 rounded-xl text-sm flex"
+						class="text-ape-cream hover:bg-blue-200 hover:bg-opacity-25
+						transition-all md:px-4 px-2 py-2 rounded-xl text-lg flex"
 					>
 						<i class="pr-1 pt-1"><Fa icon={faUsers} /></i>
 						Team

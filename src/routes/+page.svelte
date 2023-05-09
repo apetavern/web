@@ -8,29 +8,35 @@
 	});
 </script>
 
-<div
-	class="flex flex-col py-16 items-start justify-center h-[calc(100vh-8rem)] backdrop-blur relative overflow-hidden"
->
+<div class="flex flex-row py-16 h-[calc(100vh-8rem)] backdrop-blur relative overflow-hidden">
 	<div
 		id="hero-background"
 		class="opacity-50 absolute inset-0 scale-110 bg-[url('/images/brand/background.png')] blur-md -z-10 object-cover object-center
-        bg-cover overflow-hidden"
+			bg-cover overflow-hidden"
 	/>
 
-	<section class="container mx-auto p-8 pb-4 -mt-12">
-		<img
-			src="images/brand/apetavern_logo_transparent_cream.png"
-			class="-mx-4 md:max-w-xl"
-			alt="logo"
-		/>
-		<p class="font-semibold text-xl sm:text-2xl py-2 pb-4 text-ape-cream">
-			We're a small team of <span class="text-ape-orange">developers</span> who love making games.
-		</p>
-	</section>
+	<div class="flex flex-col mx-auto md:p-8 justify-center min-h-full">
+		<section class="container p-8 pb-4 -mt-12">
+			<img
+				src="images/brand/apetavern_logo_transparent_cream.png"
+				class="-mx-4 md:max-w-xl"
+				alt="logo"
+			/>
+			<p class="font-semibold text-xl sm:text-2xl py-2 pb-4 text-ape-cream">
+				We're a small team of <span class="text-ape-orange">developers</span> who love making games.
+			</p>
+		</section>
 
-	<section class="container mx-auto px-4">
-		<Socials />
-	</section>
+		<section class="container mx-auto px-4">
+			<Socials />
+		</section>
+	</div>
+
+	<img
+		src="images/brand/grub_think.png"
+		class="hidden md:flex my-auto mr-auto max-h-[24rem]"
+		alt="grub"
+	/>
 </div>
 
 <div class="bg-gray-800 shadow-xl w-full h-8" />
