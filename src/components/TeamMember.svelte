@@ -21,7 +21,7 @@
 	export let avatarPath: string;
 </script>
 
-<li class="flex shrink items-center justify-start w-full lg:w-1/4 p-4 h-min">
+<li class="flex shrink items-center justify-start w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4 h-min">
 	<div class="flex aspect-square">
 		<img src={avatarPath} class="w-16 rounded-full aspect-square" alt={'avatar ' + name} />
 	</div>
