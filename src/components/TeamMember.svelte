@@ -34,13 +34,19 @@
 
 		<div class="h-6 my-1 flex justify-start shrink">
 			{#if twitter}
-				<a class="text-white bg-blue-500 rounded px-1 py-1 mr-1" href={twitter}>
+				<a
+					class="text-white bg-blue-500 rounded px-1 py-1 mr-1 hover:bg-blue-400 transition-all"
+					href={twitter}
+				>
 					<Fa icon={faTwitter} />
 				</a>
 			{/if}
 
 			{#if website}
-				<a class="text-white bg-blue-500 rounded px-1 py-1" href={website}>
+				<a
+					class="text-white bg-blue-500 rounded px-1 py-1 hover:bg-blue-400 transition-all"
+					href={website}
+				>
 					<Fa icon={faLink} />
 				</a>
 			{/if}
