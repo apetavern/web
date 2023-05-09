@@ -65,7 +65,7 @@
 	];
 </script>
 
-<div class="container p-8 m-auto min-h-screen">
+<div class="container p-8 m-auto">
 	<div class="min-h-[50vh]">
 		<h1 class="font-bold text-4xl pb-8">Meet the Apes</h1>
 		<ul class="items-center -m-4 flex flex-wrap justify-items-stretch">
