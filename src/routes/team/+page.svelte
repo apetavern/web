@@ -48,7 +48,7 @@
 			name: 'Gio',
 			position: 'Programmer',
 			website: 'https://github.com/lotuspar',
-			avatarPath: 'images/team/par.png'
+			avatarPath: 'images/team/gio.png'
 		},
 		{
 			name: 'Damien',
