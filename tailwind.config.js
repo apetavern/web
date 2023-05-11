@@ -6,6 +6,7 @@ export default {
       colors: {
         'ape-cream': '#FFF9E2',
         'ape-orange': '#F16122',
+        'ape-forest': '#182916',
       },
     },
   },
