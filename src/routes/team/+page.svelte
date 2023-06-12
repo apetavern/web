@@ -61,12 +61,25 @@
 			position: 'Programmer',
 			website: 'https://matek.dev/',
 			avatarPath: 'images/team/matek.jpg'
+		},
+		{
+			name: 'Kidd',
+			position: 'Programmer',
+			website: 'https://drewbritt.dev/',
+			twitter: 'https://twitter.com/drewbritt_',
+			avatarPath: 'images/team/kidd.jpg'
+		},
+		{
+			name: 'Duston',
+			position: 'Programmer',
+			website: 'https://github.com/dch-GH',
+			avatarPath: 'images/team/duston.jpg'
 		}
 	];
 </script>
 
 <div class="container p-8 m-auto">
-	<div class="min-h-[50vh]">
+	<div class="min-h-screen pt-24">
 		<h1 class="font-bold text-4xl pb-8">Meet the Apes</h1>
 		<ul class="items-center -m-4 flex flex-wrap justify-items-stretch">
 			{#each teamMembers as teamMember}

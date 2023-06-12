@@ -8,6 +8,9 @@ export default {
         'ape-orange': '#F16122',
         'ape-forest': '#182916',
       },
+      fontFamily: {
+        cabin: ['Cabin'],
+      }
     },
   },
   plugins: [],

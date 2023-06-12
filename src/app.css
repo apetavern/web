@@ -13,3 +13,20 @@
 ::-webkit-scrollbar-thumb {
     background-color: #64748b;
 }
+
+@layer base {
+    @font-face {
+        font-family: 'Cabin';
+        font-weight: normal;
+        src: local('Cabin'), local('cabin'),
+            url('/fonts/Cabin/Cabin-Regular.ttf');
+        font-display: swap;
+    }
+    @font-face {
+        font-family: 'Cabin';
+        font-weight: medium;
+        src: local('Cabin'), local('cabin'),
+            url('/fonts/Cabin/Cabin-Medium.ttf');
+        font-display: swap;
+    }
+}
