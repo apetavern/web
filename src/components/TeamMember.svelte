@@ -9,7 +9,7 @@
 </script>
 
 <script lang="ts">
-	import { faTwitter } from '@fortawesome/free-brands-svg-icons';
+	import { faXTwitter } from '@fortawesome/free-brands-svg-icons';
 	import { faLink } from '@fortawesome/free-solid-svg-icons';
 
 	import Fa from 'svelte-fa';
@@ -38,7 +38,7 @@
 					class="text-white bg-blue-500 rounded px-1 py-1 mr-1 hover:bg-blue-400 transition-all"
 					href={twitter}
 				>
-					<Fa icon={faTwitter} />
+					<Fa icon={faXTwitter} />
 				</a>
 			{/if}
 
