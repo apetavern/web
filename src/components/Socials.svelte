@@ -1,5 +1,5 @@
 <script>
-	import { faDiscord, faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons';
+	import { faDiscord, faGithub, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 	import { faBox } from '@fortawesome/free-solid-svg-icons';
 	import Fa from 'svelte-fa';
 </script>
@@ -20,6 +20,12 @@
 	<li class="px-4">
 		<a href="https://github.com/apetavern" title="GitHub">
 			<Fa class="cursor-pointer hover:text-blue-500 transition-all" icon={faGithub} />
+		</a>
+	</li>
+
+	<li class="px-4">
+		<a href="https://www.youtube.com/@apetavern" title="YouTube">
+			<Fa class="cursor-pointer hover:text-blue-500 transition-all" icon={faYoutube} />
 		</a>
 	</li>
 

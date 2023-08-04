@@ -45,12 +45,6 @@
 			avatarPath: 'images/team/gooman.png'
 		},
 		{
-			name: 'Gio',
-			position: 'Programmer',
-			website: 'https://github.com/lotuspar',
-			avatarPath: 'images/team/gio.png'
-		},
-		{
 			name: 'Damien',
 			position: 'Programmer & 2D Artist',
 			website: 'https://damien.stamates.io',
@@ -68,12 +62,6 @@
 			website: 'https://drewbritt.dev/',
 			twitter: 'https://twitter.com/drewbritt_',
 			avatarPath: 'images/team/kidd.jpg'
-		},
-		{
-			name: 'Duston',
-			position: 'Programmer',
-			website: 'https://github.com/dch-GH',
-			avatarPath: 'images/team/duston.jpg'
 		}
 	];
 </script>

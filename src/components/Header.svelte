@@ -26,14 +26,6 @@
 						<i class="pr-2 pt-1"><Fa icon={faUsers} /></i>
 						Team
 					</a>
-					<a
-						href="/blog"
-						class="text-ape-cream hover:bg-blue-200 hover:bg-opacity-25
-						transition-all md:px-4 px-2 py-2 rounded-xl text-lg flex"
-					>
-						<i class="pr-2 pt-1"><Fa icon={faStickyNote} /></i>
-						Blog
-					</a>
 				</nav>
 			</div>
 		</div>
