@@ -67,9 +67,9 @@
 </script>
 
 <div class="container p-8 m-auto">
-	<div class="min-h-screen pt-24">
+	<div class="pt-24">
 		<h1 class="font-bold text-4xl pb-8">Meet the Apes</h1>
-		<ul class="items-center -m-4 flex flex-wrap justify-items-stretch">
+		<ul class="flex flex-wrap items-center -m-4 justify-items-stretch">
 			{#each teamMembers as teamMember}
 				<TeamMember
 					name={teamMember.name}
@@ -80,5 +80,20 @@
 				/>
 			{/each}
 		</ul>
+	</div>
+
+	<div class="mt-24 md:px-20 lg:px-80 text-center">
+		<h1 class="font-bold text-2xl">Want to join us?</h1>
+		<p class="mt-4 text-lg">
+			Our projects are <a
+				class="text-blue-500 hover:text-blue-400 transition-all"
+				href="https://github.com/apetavern">open source</a
+			>, and we accept both issues and pull requests. Feel like going a step further? We're
+			constantly looking for new talent for our team. Check out our
+			<a
+				class="text-blue-500 hover:text-blue-400 transition-all"
+				href="https://discord.gg/g4JczwdCcN">Discord</a
+			> to apply.
+		</p>
 	</div>
 </div>
