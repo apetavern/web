@@ -24,12 +24,12 @@
 </script>
 
 <div
-	class="rounded overflow-hidden border h-64 w-4/5 xl:w-1/3 flex flex-row bg-gray-900 border-gray-700"
+	class="rounded overflow-hidden border sm:h-64 w-4/5 xl:w-1/3 flex flex-col sm:flex-row bg-gray-900 border-gray-700"
 >
 	<img
 		src={thumbPath}
 		alt={name + ' thumbnail'}
-		class="bg-cover bg-center transition-all transform object-cover w-1/2 rounded"
+		class="bg-cover bg-center transition-all transform object-cover sm:w-1/2 h-1/2 sm:h-auto rounded"
 	/>
 	<div class="p-4 w-full flex flex-col">
 		<div>
