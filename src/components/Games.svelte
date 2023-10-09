@@ -30,10 +30,10 @@
 	];
 </script>
 
-<section class="relative overflow-hidden pt-4 pb-16 bg-ape-cream">
+<section class="relative overflow-hidden pt-4 pb-16">
 	<div class="container m-auto h-full flex flex-col items-center justify-center px-4 xl:px-0">
 		<div class="container m-auto h-full flex flex-col items-center justify-center px-4 xl:px-0">
-			<h2 class="font-bold text-3xl text-center uppercase py-8 text-ape-orange">Our games</h2>
+			<h2 class="font-bold text-3xl text-center uppercase py-8 mb-12 text-ape-cream">Our games</h2>
 		</div>
 
 		<div class="flex flex-col w-full justify-center items-center lg:gap-8 lg:flex-row">

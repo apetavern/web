@@ -73,7 +73,7 @@
 	];
 </script>
 
-<div class="container p-8 m-auto">
+<div class="container p-8 mx-auto flex flex-col min-h-[90vh] justify-around">
 	<div class="pt-24">
 		<h1 class="font-bold text-4xl pb-8">Meet the Apes</h1>
 		<ul class="flex flex-wrap items-center -m-4 justify-items-stretch">
@@ -89,7 +89,7 @@
 		</ul>
 	</div>
 
-	<div class="mt-24 md:px-20 lg:px-80 text-center">
+	<div class="lg:px-20 xl:px-80 text-center mt-12 xl:mt-0">
 		<h1 class="font-bold text-2xl">Want to join us?</h1>
 		<p class="mt-4 text-lg">
 			Our projects are <a

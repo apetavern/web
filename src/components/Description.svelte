@@ -14,3 +14,4 @@
 		</p>
 	</div>
 </section>
+<div class="bg-slate-800 shadow-xl w-full h-8" />
