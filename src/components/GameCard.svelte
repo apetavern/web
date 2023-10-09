@@ -24,7 +24,7 @@
 </script>
 
 <div
-	class="rounded overflow-hidden border sm:h-64 w-4/5 xl:w-1/3 flex flex-col sm:flex-row bg-gray-900 border-gray-700"
+	class="rounded border sm:h-64 w-4/5 lg:w-2/5 flex flex-col sm:flex-row bg-gray-900 border-gray-700"
 >
 	<img
 		src={thumbPath}
@@ -37,7 +37,7 @@
 			<p class="py-2">{releaseDate}</p>
 			<p class="text-base">{description}</p>
 		</div>
-		<div class="mt-auto flex gap-3 text-2xl xl:text-3xl">
+		<div class="mt-auto flex gap-3 text-2xl xl:text-3xl pt-4">
 			<a href={assetParty}>
 				<Fa icon={faBox} />
 			</a>

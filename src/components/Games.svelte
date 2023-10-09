@@ -12,7 +12,7 @@
 		},
 		{
 			name: 'Parkour Painters',
-			description: 'A parkour and graffiti team-based game created for a game jam.',
+			description: 'A team based parkour game created for a game jam.',
 			thumbPath:
 				'https://files.facepunch.com/sbox/asset/apetavern.parkour_painters/logo.2e579cd1.png',
 			releaseDate: 'April 2023',
