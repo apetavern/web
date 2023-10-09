@@ -4,7 +4,7 @@
 	import Fa from 'svelte-fa';
 </script>
 
-<ul class="list-none flex text-ape-cream text-2xl items-center">
+<ul class="list-none flex text-2xl items-center">
 	<li class="px-4">
 		<a href="https://discord.gg/g4JczwdCcN" title="Discord">
 			<Fa class="cursor-pointer hover:text-blue-500 transition-all" icon={faDiscord} />

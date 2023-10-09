@@ -25,7 +25,7 @@
 					class="-mx-4 md:max-w-xl"
 					alt="logo"
 				/>
-				<p class="text-xl sm:text-2xl py-2 pb-4 text-ape-cream">
+				<p class="text-xl sm:text-2xl py-2 pb-4">
 					Crafting fun experiences in the world of <span class="text-ape-orange">s&box</span>.
 				</p>
 			</section>
