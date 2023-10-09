@@ -30,7 +30,25 @@
 	];
 </script>
 
-<section class="relative overflow-hidden pt-4 pb-16">
+<section class="relative overflow-hidden bg-slate-800 pb-16">
+	<div class="container m-auto py-16 flex justify-center">
+		<h2 class="text-3xl uppercase font-bold">Our Games</h2>
+	</div>
+	<div class="flex flex-col flex-wrap items-center justify-center gap-8 lg:flex-row">
+		{#each games as game}
+			<GameCard
+				name={game.name}
+				description={game.description}
+				thumbPath={game.thumbPath}
+				releaseDate={game.releaseDate}
+				github={game.github}
+				assetParty={game.assetParty}
+			/>
+		{/each}
+	</div>
+</section>
+
+<!-- <section class="relative overflow-hidden pt-4 pb-16">
 	<div class="container m-auto h-full flex flex-col items-center justify-center px-4 xl:px-0">
 		<div class="container m-auto h-full flex flex-col items-center justify-center px-4 xl:px-0">
 			<h2 class="font-bold text-3xl text-center uppercase py-8 mb-12 text-ape-cream">Our games</h2>
@@ -49,4 +67,4 @@
 			{/each}
 		</div>
 	</div>
-</section>
+</section> -->

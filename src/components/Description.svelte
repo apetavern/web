@@ -6,12 +6,12 @@
 	/>
 
 	<div class="lg:w-1/2 lg:ml-4 shrink flex items-start justify-center flex-col pl-4">
-		<h2 class="font-bold font-subtitle text-2xl py-4">
+		<h2 class="font-bold font-subtitle text-3xl py-4">
 			We make awesome games for <span class="text-blue-500">s&amp;box</span>.
 		</h2>
-		<p>
-			With a team of passionate developers, we are bringing fun with friends back to video games.
+		<p class="text-lg">
+			We are a small team of developers who follow our passions. We are bringing fun with friends
+			back to video games.
 		</p>
 	</div>
 </section>
-<div class="bg-slate-800 shadow-xl w-full h-8" />

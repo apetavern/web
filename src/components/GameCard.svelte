@@ -10,6 +10,11 @@
 </script>
 
 <script lang="ts">
+	import { faGithub } from '@fortawesome/free-brands-svg-icons';
+	import { faBox } from '@fortawesome/free-solid-svg-icons';
+
+	import Fa from 'svelte-fa';
+
 	export let name: string;
 	export let description: string;
 	export let thumbPath: string;
@@ -18,23 +23,29 @@
 	export let assetParty: string;
 </script>
 
-<div class="bg-ape-forest rounded relative border overflow-hidden lg:w-1/4">
+<div
+	class="rounded overflow-hidden border h-64 w-4/5 xl:w-1/3 flex flex-row bg-gray-900 border-gray-700"
+>
 	<img
 		src={thumbPath}
 		alt={name + ' thumbnail'}
-		class="bg-cover bg-center transition-all transform"
+		class="bg-cover bg-center transition-all transform object-cover w-1/2 rounded"
 	/>
-	<div class="p-6 w-full">
-		<div class="flex flex-row gap-2 items-baseline">
-			<p class="uppercase font-bold text-ape-cream text-xl">
-				{name}
-			</p>
-			<p class="text-ape-orange">
-				{releaseDate}
-			</p>
+	<div class="p-4 w-full flex flex-col">
+		<div>
+			<h3 class="text-2xl xl:text-3xl font-bold py-2">{name}</h3>
+			<p class="py-2">{releaseDate}</p>
+			<p class="text-base">{description}</p>
 		</div>
-		<p class="font-light">
-			{description}
-		</p>
+		<div class="mt-auto flex gap-3 text-2xl xl:text-3xl">
+			<a href={assetParty}>
+				<Fa icon={faBox} />
+			</a>
+			{#if github}
+				<a href={github}>
+					<Fa icon={faGithub} />
+				</a>
+			{/if}
+		</div>
 	</div>
 </div>
