@@ -5,7 +5,7 @@
 	let teamMembers: TeamMemberProps[] = [
 		{
 			name: 'Trundler',
-			position: 'Programmer',
+			position: 'Programmer & Founder',
 			website: 'https://trundler.xyz',
 			twitter: 'https://twitter.com/trundler_',
 			avatarPath: 'images/team/trundler.png'
@@ -62,6 +62,13 @@
 			website: 'https://drewbritt.dev/',
 			twitter: 'https://twitter.com/drewbritt_',
 			avatarPath: 'images/team/kidd.jpg'
+		},
+		{
+			name: 'Carson',
+			position: 'Programmer & Game Designer',
+			website: 'https://carsonk.net/',
+			twitter: 'https://twitter.com/CarsonKompon',
+			avatarPath: 'images/team/carson.jpg'
 		}
 	];
 </script>
