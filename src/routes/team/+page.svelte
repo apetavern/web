@@ -51,12 +51,6 @@
 			avatarPath: 'images/team/damien.png'
 		},
 		{
-			name: 'Matek',
-			position: 'Programmer',
-			website: 'https://matek.dev/',
-			avatarPath: 'images/team/matek.jpg'
-		},
-		{
 			name: 'Kidd',
 			position: 'Programmer',
 			website: 'https://drewbritt.dev/',
