@@ -51,12 +51,6 @@
 			avatarPath: 'images/team/damien.png'
 		},
 		{
-			name: 'Matek',
-			position: 'Programmer',
-			website: 'https://matek.dev/',
-			avatarPath: 'images/team/matek.jpg'
-		},
-		{
 			name: 'Kidd',
 			position: 'Programmer',
 			website: 'https://drewbritt.dev/',
@@ -69,7 +63,19 @@
 			website: 'https://carsonk.net/',
 			twitter: 'https://twitter.com/CarsonKompon',
 			avatarPath: 'images/team/carson.jpg'
-		}
+		},
+		{
+			name: 'Cameron',
+			position: 'Programmer',
+			website: 'https://github.com/cs716',
+			avatarPath: 'images/team/cameron.png'
+		},
+		{
+			name: 'eEight',
+			position: '3D Artist',
+			website: 'https://github.com/eeight-dev',
+			avatarPath: 'images/team/e8.png'
+		},
 	];
 </script>
 
