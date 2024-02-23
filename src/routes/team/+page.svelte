@@ -70,6 +70,12 @@
 			website: 'https://github.com/cs716',
 			avatarPath: 'images/team/cameron.png'
 		},
+		{
+			name: 'eEight',
+			position: '3D Artist',
+			website: 'https://github.com/eeight-dev',
+			avatarPath: 'images/team/e8.png'
+		},
 	];
 </script>
 
