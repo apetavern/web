@@ -18,6 +18,15 @@
 			releaseDate: 'April 2023',
 			github: 'https://github.com/apetavern/parkour-painters',
 			assetParty: 'https://asset.party/apetavern/parkour_painters'
+		},
+		{
+			name: 'Grug',
+			description: 'A multiplayer caveman survival game. Hunt, gather, build.',
+			thumbPath:
+				'https://cdn.sbox.game/org/apetavern/grug/thumb/ad27653c-69f1-4ac0-b910-4039c78f9a8b.png',
+			releaseDate: 'March 2024',
+			github: '',
+			assetParty: 'https://asset.party/apetavern/grug'
 		}
 		// {
 		// 	name: '',
