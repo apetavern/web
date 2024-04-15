@@ -58,13 +58,6 @@
 			avatarPath: 'images/team/kidd.jpg'
 		},
 		{
-			name: 'Carson',
-			position: 'Programmer & Game Designer',
-			website: 'https://carsonk.net/',
-			twitter: 'https://twitter.com/CarsonKompon',
-			avatarPath: 'images/team/carson.jpg'
-		},
-		{
 			name: 'Cameron',
 			position: 'Programmer',
 			website: 'https://github.com/cs716',
