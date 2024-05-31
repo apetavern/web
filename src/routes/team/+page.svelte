@@ -69,6 +69,15 @@
 			website: 'https://github.com/eeight-dev',
 			avatarPath: 'images/team/e8.png'
 		},
+		{
+
+			name: 'Alex',
+			position: 'Programmer',
+			website: 'https://xez.no/',
+			twitter: 'https://twitter.com/realxezno',
+			avatarPath: 'images/team/alex.png'
+			
+		},
 	];
 </script>
 
