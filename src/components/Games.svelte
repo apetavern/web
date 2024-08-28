@@ -27,6 +27,14 @@
 			releaseDate: 'March 2024',
 			github: '',
 			assetParty: 'https://asset.party/apetavern/grug'
+		},
+		{
+		 	name: 'Micro Mayhem',
+		 	description: 'Race to the finish and screw over your friends in this round-based platformer.',
+		 	thumbPath: 'https://cdn.sbox.game/org/apetavern/micromayhem/thumb/51ca2733-23b6-4f4d-9a1d-ad18ac244d1a.png',
+		 	releaseDate: 'August 2024',
+		 	github: '',
+		 	assetParty: 'https://sbox.game/apetavern/micromayhem'
 		}
 		// {
 		// 	name: '',
