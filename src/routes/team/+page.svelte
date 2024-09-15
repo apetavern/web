@@ -31,12 +31,12 @@
 			website: 'https://shadowbrain.itch.io',
 			avatarPath: 'images/team/shadowbrain.png'
 		},
-		// {
-		// 	name: 'PUKES',
-		// 	position: '3D Artist',
-		// 	twitter: 'https://twitter.com/ImPukes',
-		// 	avatarPath: 'images/team/pukes.png'
-		// },
+		{
+		 	name: 'PUKES',
+		 	position: '3D Artist',
+		 	twitter: 'https://twitter.com/ImPukes',
+		 	avatarPath: 'images/team/pukes.png'
+		},
 		{
 			name: 'Jammie',
 			position: '3D Artist',
