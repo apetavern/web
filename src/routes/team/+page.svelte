@@ -75,12 +75,6 @@
 			position: '3D Artist',
 			website: 'https://github.com/eeight-dev',
 			avatarPath: 'images/team/e8.png'
-		},
-		{
-			name: 'bombadil',
-			position: 'Programmer',
-			website: 'https://github.com/ringadongdillo',
-			avatarPath: 'images/team/bombadil.jpg'
 		}
 	];
 </script>
