@@ -31,12 +31,12 @@
 			website: 'https://shadowbrain.itch.io',
 			avatarPath: 'images/team/shadowbrain.png'
 		},
-		// {
-		// 	name: 'PUKES',
-		// 	position: '3D Artist',
-		// 	twitter: 'https://twitter.com/ImPukes',
-		// 	avatarPath: 'images/team/pukes.png'
-		// },
+		{
+		 	name: 'PUKES',
+		 	position: '3D Artist',
+		 	twitter: 'https://twitter.com/ImPukes',
+		 	avatarPath: 'images/team/pukes.png'
+		},
 		{
 			name: 'Jammie',
 			position: '3D Artist',
@@ -75,12 +75,6 @@
 			position: '3D Artist',
 			website: 'https://github.com/eeight-dev',
 			avatarPath: 'images/team/e8.png'
-		},
-		{
-			name: 'bombadil',
-			position: 'Programmer',
-			website: 'https://github.com/ringadongdillo',
-			avatarPath: 'images/team/bombadil.jpg'
 		}
 	];
 </script>
