@@ -38,11 +38,11 @@
 			<p class="text-base">{description}</p>
 		</div>
 		<div class="mt-auto flex gap-3 text-2xl xl:text-3xl pt-4">
-			<a href={assetParty}>
+			<a href={assetParty} class="hover:text-blue-500 transition-all">
 				<Fa icon={faBox} />
 			</a>
 			{#if github}
-				<a href={github}>
+				<a href={github} class="hover:text-blue-500 transition-all">
 					<Fa icon={faGithub} />
 				</a>
 			{/if}
