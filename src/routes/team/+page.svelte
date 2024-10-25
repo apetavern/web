@@ -8,79 +8,79 @@
 			position: 'Programmer & Founder',
 			website: 'https://trundler.xyz',
 			twitter: 'https://twitter.com/trundler_',
-			avatarPath: 'images/team/trundler.png'
+			avatarPath: '/images/team/trundler.png'
 		},
 		{
 			name: 'Matt944',
 			position: 'Programmer',
 			website: 'https://www.ninetyfour.dev',
 			twitter: 'https://twitter.com/Matt944_',
-			avatarPath: 'images/team/matt944.png'
+			avatarPath: '/images/team/matt944.png'
 		},
 		{
 			name: 'Alex',
 			position: 'Programmer',
 			website: 'https://xez.no/',
 			twitter: 'https://twitter.com/realxezno',
-			avatarPath: 'images/team/alex.png'
+			avatarPath: '/images/team/alex.png'
 		},
 		{
 			name: 'ShadowBrain',
 			position: 'Programmer & 3D Artist',
 			twitter: 'https://twitter.com/TheShadowBrain',
 			website: 'https://shadowbrain.itch.io',
-			avatarPath: 'images/team/shadowbrain.png'
+			avatarPath: '/images/team/shadowbrain.png'
 		},
 		// {
 		// 	name: 'PUKES',
 		// 	position: '3D Artist',
 		// 	twitter: 'https://twitter.com/ImPukes',
-		// 	avatarPath: 'images/team/pukes.png'
+		// 	avatarPath: '/images/team/pukes.png'
 		// },
 		{
 			name: 'Jammie',
 			position: '3D Artist',
 			twitter: 'https://twitter.com/Jammie3D',
 			website: 'https://www.artstation.com/jammie3d',
-			avatarPath: 'images/team/jammie.png'
+			avatarPath: '/images/team/jammie.png'
 		},
 		// {
 		// 	name: 'Gooman',
 		// 	position: 'Programmer',
 		// 	twitter: 'https://twitter.com/peter_rgg',
 		// 	website: 'https://peter-r-g.github.io',
-		// 	avatarPath: 'images/team/gooman.png'
+		// 	avatarPath: '/images/team/gooman.png'
 		// },
 		// {
 		// 	name: 'Damien',
 		// 	position: 'Programmer & 2D Artist',
 		// 	website: 'https://damien.stamates.io',
-		// 	avatarPath: 'images/team/damien.png'
+		// 	avatarPath: '/images/team/damien.png'
 		// },
 		{
 			name: 'Kidd',
 			position: 'Programmer',
 			website: 'https://drewbritt.dev/',
 			twitter: 'https://twitter.com/drewbritt_',
-			avatarPath: 'images/team/kidd.jpg'
+			avatarPath: '/images/team/kidd.jpg'
 		},
 		{
 			name: 'Cameron',
 			position: 'Programmer',
 			website: 'https://github.com/cs716',
-			avatarPath: 'images/team/cameron.png'
+			avatarPath: '/images/team/cameron.png'
 		},
 		{
 			name: 'eEight',
 			position: '3D Artist',
 			website: 'https://github.com/eeight-dev',
-			avatarPath: 'images/team/e8.png'
+			avatarPath: '/images/team/e8.png'
 		},
 		{
 			name: 'bombadil',
 			position: 'Programmer',
 			website: 'https://github.com/ringadongdillo',
-			avatarPath: 'images/team/bombadil.jpg'
+			avatarPath: '/images/team/bombadil.jpg'
 		}
 	];
 </script>
